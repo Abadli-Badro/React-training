@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: Inter;
+  background-color: #282D35;
+  
+}
+
+nav {
+  background-color: #21222A;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 90px;
+  flex-wrap: wrap;
+  padding: 30px 25px;
+}
+
+nav>h3,nav>h4 {
+  margin: 0px;
+}
+
+nav>h3 {
+  margin-right: auto;
+  color: #61dafb;
+}
+
+nav>h4 {
+  color: aliceblue;
+}
+img{
+  width : 35px;
+  padding: 7px;
+}
+.main-cont{
+  color: #FFFFFF;
+  background-image: url('./components/logo512.png');
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position: right bottom;
+}
+.main-title{
+    font-size: 39.06px;
+    letter-spacing: -0.05em;
+    padding: 5px;
+    margin-left: 27px;
+    margin-top: 57px;
+}
+.main-cont > ul{
+  margin-top: 46px;
+  margin-left: 40px;
+}
+.main-cont>ul>li{
+  margin-top:20.38px ;
+  font-size: 16px;
+  line-height: 19px;
+}
+.main-cont>ul>li::marker{
+  font-size: 1.3em;
+  color: #61dafb;
+}
+
